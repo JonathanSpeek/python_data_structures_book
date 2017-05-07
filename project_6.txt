@@ -1,0 +1,5 @@
+Adams	9.50	40
+James	8.40	35
+Rodriguez	9.00	40
+Smith	7.50	40
+Williams	6.75	45
