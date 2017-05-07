@@ -5,3 +5,13 @@
 # number of lines in the file. If the input is 0, the program quits. Otherwise, the
 # program prints the line associated with that number.
 
+file_name = input('What is the file name: ')
+
+file = list(open(file_name, 'r'))
+
+if len(file) > 0:
+    print_line = int(input('Which of the {lines} lines do you want to print: '.format(lines=len(file))))
+
+    print('{line}'.format(line=file[print_line]))
+else:
+    print('The file has nothing in it...')
